@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/numberText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/DefaultNumber"
+        android:textColor="@color/black"
+        android:textSize="70sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/buttonNumber1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="scriviNumero"
+            android:text="@string/buttonNumber1Text"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/buttonNumber2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="scriviNumero"
+            android:text="@string/buttonNumber2Text"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/buttonNumber3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scriviNumero"
+            android:text="@string/buttonNumber3Text"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/buttonNumber4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="scriviNumero"
+            android:text="@string/buttonNumber4Text"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/buttonNumber5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="scriviNumero"
+            android:text="@string/buttonNumber5Text"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/buttonNumber6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scriviNumero"
+            android:text="@string/buttonNumber6Text"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/buttonNumber7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="scriviNumero"
+            android:text="@string/buttonNumber7Text"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/buttonNumber8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="scriviNumero"
+            android:text="@string/buttonNumber8Text"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/buttonNumber9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scriviNumero"
+            android:text="@string/buttonNumber9Text"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/buttonCancella"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="cancella"
+            android:text="@string/buttonCancelText"
+            android:textStyle="bold|italic"
+            app:backgroundTint="@android:color/holo_red_light" />
+
+        <Button
+            android:id="@+id/buttonNumber0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="scriviNumero"
+            android:text="@string/buttonNumber0Text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/buttonVirgola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scriviNumero"
+            android:text="@string/buttonVirgolaText"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:onClick="makeOperation"
+        android:text="@string/buttonMakeOperationText"
+        android:textColor="@color/black"
+        app:backgroundTint="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="detectOperator"
+            android:text="@string/buttonAddText"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/holo_orange_light" />
+
+        <Button
+            android:id="@+id/buttonSott"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="detectOperator"
+            android:text="@string/buttonSottText"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/holo_orange_light" />
+
+        <Button
+            android:id="@+id/buttonMol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="detectOperator"
+            android:text="@string/buttonMolText"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/holo_orange_light" />
+
+        <Button
+            android:id="@+id/buttonDiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="detectOperator"
+            android:text="@string/buttonDivText"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/holo_orange_light" />
+    </LinearLayout>
+
+</LinearLayout>

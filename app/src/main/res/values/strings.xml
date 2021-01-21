@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Calculator</string>
+    <string name="DefaultNumber">0</string>
+    <string name="buttonNumber1Text">1</string>
+    <string name="buttonNumber2Text">2</string>
+    <string name="buttonNumber3Text">3</string>
+    <string name="buttonNumber4Text">4</string>
+    <string name="buttonNumber5Text">5</string>
+    <string name="buttonNumber6Text">6</string>
+    <string name="buttonNumber7Text">7</string>
+    <string name="buttonNumber8Text">8</string>
+    <string name="buttonNumber9Text">9</string>
+    <string name="buttonNumber0Text">0</string>
+    <string name="buttonVirgolaText">.</string>
+    <string name="buttonCancelText">C</string>
+    <string name="buttonMakeOperationText">=</string>
+    <string name="buttonAddText">+</string>
+    <string name="buttonSottText">-</string>
+    <string name="buttonMolText">*</string>
+    <string name="buttonDivText">/</string>
+</resources>
